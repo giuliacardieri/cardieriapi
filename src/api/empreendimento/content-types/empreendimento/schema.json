@@ -15,12 +15,7 @@
       "type": "string"
     },
     "Foto": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
       "multiple": false
     },
@@ -28,15 +23,18 @@
       "type": "string"
     },
     "Suites": {
-      "type": "integer"
+      "type": "string"
     },
     "Dormitorios": {
-      "type": "integer"
+      "type": "string"
     },
     "Metragem": {
       "type": "string"
     },
     "Vagas": {
+      "type": "string"
+    },
+    "Endereco": {
       "type": "string"
     },
     "Entrega": {
