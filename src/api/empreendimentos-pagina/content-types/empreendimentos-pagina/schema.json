@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "empreendimentos_paginas",
+  "info": {
+    "singularName": "empreendimentos-pagina",
+    "pluralName": "empreendimentos-paginas",
+    "displayName": "EmpreendimentosPagina"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    }
+  }
+}

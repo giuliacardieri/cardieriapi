@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "quem_somos",
+  "info": {
+    "singularName": "quem-sou",
+    "pluralName": "quem-somos",
+    "displayName": "Quem Somos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Introducao": {
+      "type": "richtext"
+    },
+    "MetrosConstruidos": {
+      "type": "integer"
+    },
+    "Filosofia": {
+      "type": "richtext"
+    },
+    "Hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    }
+  }
+}

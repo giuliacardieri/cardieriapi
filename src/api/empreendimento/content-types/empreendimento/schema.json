@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empreendimentos",
+  "info": {
+    "singularName": "empreendimento",
+    "pluralName": "empreendimentos",
+    "displayName": "Empreendimentos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bairro": {
+      "type": "string"
+    },
+    "Suites": {
+      "type": "integer"
+    },
+    "Dormitorios": {
+      "type": "integer"
+    },
+    "Metragem": {
+      "type": "string"
+    },
+    "Vagas": {
+      "type": "string"
+    },
+    "Entrega": {
+      "type": "string"
+    },
+    "Descricao": {
+      "type": "text"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "Lazer": {
+      "displayName": "Lazer",
+      "type": "component",
+      "repeatable": false,
+      "component": "lazer.lazer"
+    }
+  }
+}

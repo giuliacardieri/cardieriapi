@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "atendimentos",
+  "info": {
+    "singularName": "atendimento",
+    "pluralName": "atendimentos",
+    "displayName": "Contato",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Horarios": {
+      "type": "text"
+    },
+    "WhatsappVendas": {
+      "type": "string"
+    },
+    "EmailVendas": {
+      "type": "email"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    }
+  }
+}

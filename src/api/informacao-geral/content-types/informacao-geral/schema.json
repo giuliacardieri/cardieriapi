@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "informacoes_gerais",
+  "info": {
+    "singularName": "informacao-geral",
+    "pluralName": "informacoes-gerais",
+    "displayName": "Informações Gerais"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TelefoneFixo": {
+      "type": "string"
+    },
+    "Whatsapp": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Endereco": {
+      "type": "string"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    }
+  }
+}

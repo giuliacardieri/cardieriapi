@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_lazer_lazers",
+  "info": {
+    "displayName": "Lazer",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "Brinquedoteca": {
+      "type": "boolean"
+    },
+    "Gourmet": {
+      "type": "boolean"
+    },
+    "Piscina": {
+      "type": "boolean"
+    },
+    "Academia": {
+      "type": "boolean"
+    },
+    "Playground": {
+      "type": "boolean"
+    },
+    "Churrasqueira": {
+      "type": "boolean"
+    },
+    "SalaoDeFestas": {
+      "type": "boolean"
+    },
+    "Quadra": {
+      "type": "boolean"
+    }
+  }
+}
