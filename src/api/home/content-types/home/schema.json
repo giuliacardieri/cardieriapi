@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "empreendimentos_paginas",
+  "collectionName": "homes",
   "info": {
-    "singularName": "empreendimentos-pagina",
-    "pluralName": "empreendimentos-paginas",
-    "displayName": "Página de Empreendimentos"
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Página Inicial"
   },
   "options": {
     "draftAndPublish": true
