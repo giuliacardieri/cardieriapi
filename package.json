@@ -2,10 +2,10 @@
   "name": "cardieriapi",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "A Strapi application for Cardieri INC",
   "license": "MIT",
   "author": {
-    "name": "A Strapi developer"
+    "name": "Giulia Cardieri"
   },
   "scripts": {
     "build": "strapi build",
@@ -18,13 +18,9 @@
     "@strapi/plugin-users-permissions": "4.1.7",
     "@strapi/provider-upload-cloudinary": "4.1.7",
     "@strapi/strapi": "4.1.7",
-    "better-sqlite3": "8.6.0",
-    "pg": "^8.11.3",
-    "pg-connection-string": "^2.6.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "pg": "^8.7.0",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "latest"
   },
   "engines": {
     "node": ">=10.0.0",
