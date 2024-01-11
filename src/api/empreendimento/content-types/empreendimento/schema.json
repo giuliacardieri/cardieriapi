@@ -19,6 +19,12 @@
       "type": "media",
       "multiple": false
     },
+    "Entregue": {
+      "type": "boolean"
+    },
+    "Lancamento": {
+      "type": "boolean"
+    },
     "Bairro": {
       "type": "string"
     },
