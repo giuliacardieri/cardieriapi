@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contatos",
+  "info": {
+    "singularName": "contato",
+    "pluralName": "contatos",
+    "displayName": "Form de Contato"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Assunto": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Telefone": {
+      "type": "string"
+    },
+    "Mensagem": {
+      "type": "string"
+    }
+  }
+}

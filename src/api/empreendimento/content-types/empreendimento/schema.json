@@ -22,6 +22,9 @@
     "Entregue": {
       "type": "boolean"
     },
+    "Comercial": {
+      "type": "boolean"
+    },
     "Lancamento": {
       "type": "boolean"
     },
