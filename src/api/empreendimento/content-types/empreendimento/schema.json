@@ -19,12 +19,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "Entregue": {
       "type": "boolean"
@@ -60,10 +55,10 @@
       "type": "text"
     },
     "Latitude": {
-      "type": "float"
+      "type": "text"
     },
     "Longitude": {
-      "type": "float"
+      "type": "text"
     },
     "Lazer": {
       "displayName": "Lazer",
@@ -72,22 +67,12 @@
       "component": "lazer.lazer"
     },
     "Plantas": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
       "multiple": true
     },
     "Galeria": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
       "multiple": true
     }
