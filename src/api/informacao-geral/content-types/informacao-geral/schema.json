@@ -4,7 +4,8 @@
   "info": {
     "singularName": "informacao-geral",
     "pluralName": "informacoes-gerais",
-    "displayName": "Informações Gerais"
+    "displayName": "Informações Gerais",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,19 +13,23 @@
   "pluginOptions": {},
   "attributes": {
     "TelefoneFixo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Whatsapp": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "Endereco": {
       "type": "string"
     },
     "Bairro": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

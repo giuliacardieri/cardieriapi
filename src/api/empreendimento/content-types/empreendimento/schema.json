@@ -80,17 +80,15 @@
       "displayName": "Lazer",
       "type": "component",
       "repeatable": false,
-      "component": "lazer.lazer"
+      "component": "lazer.lazer",
+      "required": true
     },
     "Plantas": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
     "Galeria": {
@@ -98,10 +96,7 @@
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     }
   }
