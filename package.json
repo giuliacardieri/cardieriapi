@@ -16,12 +16,16 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.21.1",
     "@strapi/plugin-users-permissions": "4.21.1",
-    "@strapi/provider-email-sendgrid": "^4.21.1",
+    "@strapi/provider-email-sendgrid": "4.21.1",
     "@strapi/provider-upload-cloudinary": "4.21.1",
     "@strapi/strapi": "4.21.1",
     "pg": "^8.7.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "latest"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.2.0",
+    "sqlite3": "latest",
+    "styled-components": "^5.2.1"
   },
   "engines": {
     "node": ">=10.0.0",
