@@ -13,25 +13,35 @@
   "pluginOptions": {},
   "attributes": {
     "Nome": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Foto": {
       "type": "media",
       "multiple": false,
-      "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "Entregue": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Comercial": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Lancamento": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "Bairro": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Suites": {
       "type": "string"
@@ -40,25 +50,31 @@
       "type": "string"
     },
     "Metragem": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Vagas": {
       "type": "string"
     },
     "Endereco": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Entrega": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Descricao": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Latitude": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Longitude": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Lazer": {
       "displayName": "Lazer",
@@ -67,14 +83,26 @@
       "component": "lazer.lazer"
     },
     "Plantas": {
-      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "Galeria": {
-      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

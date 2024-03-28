@@ -8,6 +8,12 @@ const config = {
   menu: {
     logo: logo,
   },
+  translations: {
+    ptBR: {
+      "Content Manager": "Gestão de Conteúdo",
+      "Content Type Builder": "Criador de Tipos de Conteúdo",
+    },
+  },
 };
 
 const bootstrap = (app) => {
