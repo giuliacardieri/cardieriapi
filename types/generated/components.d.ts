@@ -1,10 +1,10 @@
-import type { Schema, Attribute } from '@strapi/strapi';
+import type { Schema, Attribute } from "@strapi/strapi";
 
 export interface HeroHero extends Schema.Component {
-  collectionName: 'components_hero_heroes';
+  collectionName: "components_hero_heroes";
   info: {
-    displayName: 'Hero';
-    icon: 'landscape';
+    displayName: "Hero";
+    icon: "landscape";
   };
   attributes: {
     Titulo: Attribute.Text;
@@ -13,10 +13,10 @@ export interface HeroHero extends Schema.Component {
 }
 
 export interface LazerLazer extends Schema.Component {
-  collectionName: 'components_lazer_lazers';
+  collectionName: "components_lazer_lazers";
   info: {
-    displayName: 'Lazer';
-    icon: 'emotionHappy';
+    displayName: "Lazer";
+    icon: "emotionHappy";
   };
   attributes: {
     Brinquedoteca: Attribute.Boolean;
@@ -26,15 +26,16 @@ export interface LazerLazer extends Schema.Component {
     Playground: Attribute.Boolean;
     Churrasqueira: Attribute.Boolean;
     SalaoDeFestas: Attribute.Boolean;
+    Lavanderia: Attribute.Boolean;
     Quadra: Attribute.Boolean;
   };
 }
 
-declare module '@strapi/types' {
+declare module "@strapi/types" {
   export module Shared {
     export interface Components {
-      'hero.hero': HeroHero;
-      'lazer.lazer': LazerLazer;
+      "hero.hero": HeroHero;
+      "lazer.lazer": LazerLazer;
     }
   }
 }

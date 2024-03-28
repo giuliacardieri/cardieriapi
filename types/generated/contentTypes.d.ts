@@ -849,6 +849,8 @@ export interface ApiEmpreendimentoEmpreendimento extends Schema.CollectionType {
   attributes: {
     Nome: Attribute.String;
     Foto: Attribute.Media;
+    Galeria: Attribute.Media;
+    Plantas: Attribute.Media;
     Entregue: Attribute.Boolean;
     Comercial: Attribute.Boolean;
     Lancamento: Attribute.Boolean;
