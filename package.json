@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.1.9",
+    "@strapi/plugin-users-permissions": "4.21.1",
     "@strapi/provider-email-sendgrid": "^4.21.1",
     "@strapi/provider-upload-cloudinary": "4.1.9",
     "@strapi/strapi": "4.1.9",
