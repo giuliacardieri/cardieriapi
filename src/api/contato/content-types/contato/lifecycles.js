@@ -8,7 +8,9 @@ module.exports = {
         from: "social@cardieri.com.br",
         cc: "giulia.cardieri@gmail.com",
         subject: "Contato Site Cardieri - Não responda esse email diretamente!",
-        html: "Nome: ${Nome}<br>Email: ${E-mail}<br>Assunto: ${Assunto}<br>Telefone: ${Telefone}<br>Mensagem: ${Mensagem}",
+        html: `Nome: ${Nome}<br>Email: ${
+          E - mail
+        }<br>Assunto: ${Assunto}<br>Telefone: ${Telefone}<br>Mensagem: ${Mensagem}`,
       });
     } catch (err) {
       console.log(err);
