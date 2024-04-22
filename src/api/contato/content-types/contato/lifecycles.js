@@ -1,12 +1,13 @@
 module.exports = {
   async afterCreate(event) {
-    const { result, params } = event;
+    const { result } = event;
 
     try {
       await strapi.plugins["email"].services.email.send({
         to: "cesarcarone@cardieri.com.br",
         from: "social@cardieri.com.br",
         cc: "giulia.cardieri@gmail.com",
+        replyTo: result.Email,
         subject: "Contato Site Cardieri - Não responda esse email diretamente!",
         html: `Nome: ${result.Nome}<br>Email: ${result.Email}<br>Assunto: ${result.Assunto}<br>Telefone: ${result.Telefone}<br>Mensagem: ${result.Mensagem}`,
       });
