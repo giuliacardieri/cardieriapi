@@ -4,10 +4,12 @@ module.exports = {
 
     try {
       await strapi.plugins["email"].services.email.send({
-        to: "giulia.cardieri@gmail.com",
+        to: "bac.cia@cardieri.com.br",
+        cc: "adm.cia@cardieri.com.br",
+        bcc: "giulia.cardieri@gmail.com",
         from: "social@cardieri.com.br",
         replyTo: result.Email,
-        subject: "Contato Site Cardieri - Não responda esse email diretamente!",
+        subject: "Novo contato pelo site - Cardieri.com.br",
         html: `Nome: ${result.Nome}<br>Email: ${result.Email}<br>Assunto: ${result.Assunto}<br>Telefone: ${result.Telefone}<br>Mensagem: ${result.Mensagem}`,
       });
     } catch (err) {
