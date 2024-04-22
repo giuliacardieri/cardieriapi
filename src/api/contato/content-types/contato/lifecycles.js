@@ -1,6 +1,6 @@
 module.exports = {
   async afterCreate(event) {
-    const { result } = event;
+    const { result, params } = event;
 
     try {
       await strapi.plugins["email"].services.email.send({
